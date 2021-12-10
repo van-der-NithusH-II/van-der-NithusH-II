@@ -41,10 +41,50 @@ strong {
 
 #top {
     background-color: #ccc;
-    padding: 20px
+    padding: 1em
 }
 
 .intro {
     color: red;
     font-weight: bold;
+}
+
+h2, .thisOtherClass, .yetAnotherClass {
+    color: red;
+}
+
+#top h1 {
+    color: #ff0;
+}
+
+#top p {
+    color: red;
+    font-weight: bold;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
+
+input:focus, textarea:focus {
+    background: #eee;
+}
+
+p:first-child {
+    font-weight: bold;
+    font-size: 40px;
 }
