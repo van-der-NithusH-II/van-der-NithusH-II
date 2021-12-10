@@ -12,7 +12,7 @@ p {
     text-align: center;
 }
 a {
-  color: blue;
+  color:blue;
   text-decoration: none;
 }
 
@@ -101,3 +101,6 @@ p {
 body {
     background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
 }
+
+div p { color: red }
+p { color: blue }
