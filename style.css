@@ -1,16 +1,32 @@
 body {
-    font-size: 14px;
     color: navy;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
 }
 
 p {
   color: red;
+  letter-spacing: 0.5em;
+    word-spacing: 2em;
+    line-height: 1.5;
+    text-align: center;
 }
 a {
   color: blue;
+  text-decoration: none;
 }
 
 h1 {
     color: yellow;
     background-color: blue;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+strong {
+    font-style: italic;
+    text-transform: uppercase;
 }
