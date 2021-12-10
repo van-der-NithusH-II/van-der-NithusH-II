@@ -1,6 +1,12 @@
+body {
+    font-size: 14px;
+    color: navy;
+}
+
 p {
   color: red;
 }
 a {
   color: blue;
 }
+
