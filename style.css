@@ -104,3 +104,10 @@ body {
 
 div p { color: red }
 p { color: blue }
+
+#navigation a {
+    display: block;
+    padding: 20px 10px;
+}
+
+#navigation, #related_links { display: none }
